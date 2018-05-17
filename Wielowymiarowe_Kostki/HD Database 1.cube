@@ -1,0 +1,672 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="2ca5c890-1258-436f-b380-7155c51cd952" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>HD Database 1</ID>
+  <Name>HD Database 1</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="22" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3575" scrolltop="-1508" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="75" x="17806" y="12779" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01ee0000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Date" left="20" top="4279" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="4075" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000eb0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Date" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Group" left="5189" top="0" logicalid="2" controlid="2" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Group" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TV" left="6495" top="4279" logicalid="3" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Date_tv" left="12390" top="730" logicalid="4" controlid="4" masterid="0" hint1="0" hint2="0" width="4075" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000eb0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Date_tv" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Program" left="12811" top="7459" logicalid="5" controlid="5" masterid="0" hint1="0" hint2="0" width="3651" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000430e0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Program" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Channel" left="3620" top="11454" logicalid="6" controlid="6" masterid="0" hint1="0" hint2="0" width="3069" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000fd0b000057070000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Channel" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Time" left="8489" top="11348" logicalid="7" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Time" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TV" left="0" top="0" logicalid="14" controlid="14" masterid="0" hint1="0" hint2="0" width="3245" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000ad0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TV" left="0" top="0" logicalid="15" controlid="15" masterid="0" hint1="0" hint2="0" width="3245" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000ad0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TV" left="0" top="0" logicalid="16" controlid="16" masterid="0" hint1="0" hint2="0" width="3245" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000ad0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TV" left="0" top="0" logicalid="17" controlid="17" masterid="0" hint1="0" hint2="0" width="3245" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000ad0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TV" left="0" top="0" logicalid="18" controlid="18" masterid="0" hint1="0" hint2="0" width="3245" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000ad0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TV" left="0" top="0" logicalid="19" controlid="19" masterid="0" hint1="0" hint2="0" width="3245" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000ad0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="TV" left="-1799" top="-317" logicalid="20" controlid="20" masterid="0" hint1="0" hint2="0" width="3245" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000c0000ad0c000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj />
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-3575</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-1508</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-1799</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>-317</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>75</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="dc8fc318-7e8e-492e-a543-5680f9c51bff">
+      <ID>Program</ID>
+      <Name>Program</Name>
+      <DimensionID>Program</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ee2444ee-0b6e-44e7-9ad9-27d9681e2486">
+          <AttributeID>Program Id</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="ddc76b26-a7be-4e57-aa03-a7fbd49e1be0">
+          <AttributeID>Description</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="e0a7c61d-7a09-44e9-9847-817b0cfc217b">
+      <ID>Program 1</ID>
+      <Name>Program 1</Name>
+      <DimensionID>Program 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="993592a8-59c2-4e6a-a858-84b96cbdb937">
+          <AttributeID>Program Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="13ee5693-7230-4d7e-ba9b-d79a7442189c">
+      <ID>Time</ID>
+      <Name>Time</Name>
+      <DimensionID>Time</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="f080f111-fa43-4620-9bb6-3e93d2ef5cc8">
+          <AttributeID>Time Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="eb207c06-f5f6-4e76-97e0-4d866af7876e">
+      <ID>Date Tv</ID>
+      <Name>Date Tv</Name>
+      <DimensionID>Date Tv</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c3b4c608-d088-49e8-95d6-978054598154">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="746083e8-86b2-4a3b-bbe8-39c70aecd866">
+      <ID>Channel</ID>
+      <Name>Channel</Name>
+      <DimensionID>Channel</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="882a6eb5-5362-4606-bd1b-1a0d2fb7d337">
+          <AttributeID>Channel Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="9cdd4657-0e34-4245-9ad9-524594097fae">
+      <ID>Group</ID>
+      <Name>Group</Name>
+      <DimensionID>Group</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="4bc71f3a-4423-4357-8262-4cb588a38712">
+          <AttributeID>Group Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="1efc6e21-1cab-4644-9c8d-ec5d8e2140e7">
+      <ID>Date</ID>
+      <Name>Date</Name>
+      <DimensionID>Date</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ceb70d46-c9ff-4695-912b-539d44dcaada">
+          <AttributeID>Date Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="3ba77e5c-0e98-4151-84df-47ddd73c63ed">
+      <ID>Channel 1</ID>
+      <Name>Channel 1</Name>
+      <DimensionID>Channel 1</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="90c21249-ab51-467b-bd04-fe04206b03a9">
+          <AttributeID>Channel Id</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="0ffa3bef-c923-43ba-ba34-674dd456e847">
+      <ID>Program</ID>
+      <Name>Program</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="f59eab32-ce8f-4874-8154-398767fbfe5c">
+          <ID>Program Count</ID>
+          <Name>Program Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="2a545624-ad57-4451-95f1-ed04aaf75ab7">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="3f804a8a-18b4-4d1f-875d-e943f7fdbf5b">
+              <TableID>dbo_Program</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="ae8c5377-9ef3-4bd8-8052-e6b4de2891e6">
+          <CubeDimensionID>Program</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6ab1aef4-ab4c-4c75-9e70-a3dfcc1010b9">
+              <AttributeID>Program Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="013a4ff0-8b4a-4e7b-afb9-86cd99e50d41">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="ad56e366-b1dd-41b8-823e-4cee90cbd12a">
+                    <TableID>dbo_Program</TableID>
+                    <ColumnID>program_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="06f05f9d-aae5-48bf-826a-f8f81e908763">
+          <CubeDimensionID>Program 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="47967eb1-89de-4ba8-b48f-8aeee9476113">
+              <AttributeID>Program Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="2a422b08-1d52-4fa9-907a-31302a22981e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="bf3b8313-ba87-4de5-8194-109cad7dee5b">
+                    <TableID>dbo_Program</TableID>
+                    <ColumnID>program_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="855cdba0-bac4-43e4-908f-b7a451e1c477">
+      <ID>TV</ID>
+      <Name>TV</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="acae4cda-f21f-43b9-8545-6dfbd701bff5">
+          <ID>AMR Percent</ID>
+          <Name>AMR Percent</Name>
+          <Source dwd:design-time-name="1e8259ca-49a7-47c5-855c-8f8a80ef471d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="dbaa4b0f-5ba9-4e93-bf8f-659f538de27d">
+              <TableID>dbo_TV</TableID>
+              <ColumnID>AMR_percent</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="d9f17108-99f2-4459-8e53-71b78f29ba58">
+          <ID>AMR</ID>
+          <Name>AMR</Name>
+          <Source dwd:design-time-name="7a65173e-5c70-4754-80b5-68f80017e769">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="064dc682-552a-4bc2-9682-bd374ef627d0">
+              <TableID>dbo_TV</TableID>
+              <ColumnID>AMR</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="796298fd-9d31-4a01-bab6-0ea3ecef844f">
+          <ID>RCH</ID>
+          <Name>RCH</Name>
+          <Source dwd:design-time-name="bedea9e0-6537-4f17-8a92-620a82fca3bb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d7389f30-b55b-4842-bae1-899b0d19d4ef">
+              <TableID>dbo_TV</TableID>
+              <ColumnID>RCH</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="6ebf6f49-fd08-4793-8bc0-212d425a8c67">
+          <ID>RCH Percent</ID>
+          <Name>RCH Percent</Name>
+          <Source dwd:design-time-name="18f0617c-38a2-413f-9d86-a3b4f75b10a5">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="debda756-30f8-499c-b151-f5fbbb22c0f0">
+              <TableID>dbo_TV</TableID>
+              <ColumnID>RCH_percent</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="8e58b48e-c651-487c-849c-3fe7576afe8c">
+          <ID>SHR Percent</ID>
+          <Name>SHR Percent</Name>
+          <Source dwd:design-time-name="ef90b1c0-2cb7-4048-827e-2cce84dcf226">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="16928127-ab7d-4b7e-9986-458319390b97">
+              <TableID>dbo_TV</TableID>
+              <ColumnID>SHR_percent</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="a7a6f6db-6990-46d6-9a02-6482ffa67dd7">
+          <ID>TV Count</ID>
+          <Name>TV Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="4ec1cc4c-7dda-4ab2-89fc-e14c6990f743">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="c0b05872-81d2-4d74-848b-1af37510c8ab">
+              <TableID>dbo_TV</TableID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="b0a721d7-3351-4ef4-891e-adb0d32850c6">
+          <ID>Maximum AMR Percent - TV</ID>
+          <Name>Maximum AMR Percent - TV</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="4ea3ee90-74cf-4554-8a8e-53d0c82b8658">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="2ee0c53d-86e8-4bfb-ae09-9ae2f543b822">
+              <TableID>dbo_TV</TableID>
+              <ColumnID>AMR_percent</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="38547ae5-2055-482a-a674-6f35770ddff4">
+          <ID>Maximum AMR</ID>
+          <Name>Maximum AMR</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="423a86d8-38d1-4553-9904-5a7663b19145">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="61194034-d046-4b00-924d-7be858a6017d">
+              <TableID>dbo_TV</TableID>
+              <ColumnID>AMR</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="fb849af3-9ec1-491a-b02a-5883e0276811">
+          <ID>Maximum RCH</ID>
+          <Name>Maximum RCH</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="bac4d70d-0b15-4b25-b4fd-736988030092">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="bd93b953-3eeb-480c-8e8e-a7b51f431b06">
+              <TableID>dbo_TV</TableID>
+              <ColumnID>RCH</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="1007343a-3c5f-4772-a158-e84540532207">
+          <ID>Maximum RCH Percent</ID>
+          <Name>Maximum RCH Percent</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="fa210070-c155-40ab-a368-43c1191000be">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="f594fe8a-85de-46ab-9b0b-2fcb553b3a6d">
+              <TableID>dbo_TV</TableID>
+              <ColumnID>RCH_percent</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="0c12c15c-9637-490a-bfe7-8ebc5317c8c9">
+          <ID>Maximum SHR Percent</ID>
+          <Name>Maximum SHR Percent</Name>
+          <AggregateFunction>Max</AggregateFunction>
+          <Source dwd:design-time-name="4a2e4f73-f4ec-4b1b-8cca-ed2ebfabc77c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="d5b35e41-f0d8-42d3-8941-2e7b428e055f">
+              <TableID>dbo_TV</TableID>
+              <ColumnID>SHR_percent</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="fe2e131d-7608-4a6c-9161-bfe6f8f890e0">
+          <CubeDimensionID>Time</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="6545a3b4-1118-4f9e-a9d0-6ecf3cb84ca9">
+              <AttributeID>Time Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="6025ae6c-0a3c-44d9-8341-954641cc384f">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="5a504bbd-ba79-4c8e-acf7-a068dfbed496">
+                    <TableID>dbo_TV</TableID>
+                    <ColumnID>time_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="9c928dc6-0b46-4d67-8e40-d2f4a7d090c4">
+          <CubeDimensionID>Date Tv</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e8eef075-8be2-44af-89a6-b284bb23767f">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1ac26530-a3d2-4587-a0af-6d2a74720cd2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3f2b1813-4b52-444c-971e-a3dcb5463575">
+                    <TableID>dbo_TV</TableID>
+                    <ColumnID>date_tv_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="18b92386-8538-4465-bdb8-1c85b799ff39">
+          <CubeDimensionID>Channel</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e2f5a66b-4066-44f7-aa13-ce7c6bba517d">
+              <AttributeID>Channel Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="de8ebb73-bb09-4169-b06a-424bb873af35">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="1d8979f6-95a4-4423-9372-db85df60f224">
+                    <TableID>dbo_TV</TableID>
+                    <ColumnID>channel_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="dfb548fa-4198-4508-abe7-7eb78a9b6251">
+          <CubeDimensionID>Group</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="571d4613-db07-4396-b293-87435c51fb4c">
+              <AttributeID>Group Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="e81fa6ae-9393-4708-977a-bd6ba3d62919">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7dc4f7d8-04de-40b5-b6f8-adb6f13f70a1">
+                    <TableID>dbo_TV</TableID>
+                    <ColumnID>group_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="4f6e9fac-109a-4254-b465-971ebdceaeee">
+          <CubeDimensionID>Date</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cb9f6f97-cb9b-4536-b964-7e5017ad2604">
+              <AttributeID>Date Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="55028b9a-0b05-496f-8f8b-5f8e7ab31bb2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="9ee27807-dcde-4615-85f0-ed2a0a1f74ac">
+                    <TableID>dbo_TV</TableID>
+                    <ColumnID>date_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7bba51ce-80f9-4c77-836e-d747323618a8">
+          <CubeDimensionID>Program</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="2fed64e3-e11c-4c91-ab88-d882e733a3a8">
+              <AttributeID>Program Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="853da9e9-a498-4507-88b2-70340b0ec89a">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e3eab58e-4631-4ecd-850a-80be00607990">
+                    <TableID>dbo_TV</TableID>
+                    <ColumnID>program_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="dc23d653-7402-48c3-a769-126017a44a03">
+          <CubeDimensionID>Program 1</CubeDimensionID>
+          <MeasureGroupID>Program</MeasureGroupID>
+        </Dimension>
+        <Dimension xsi:type="ManyToManyMeasureGroupDimension" dwd:design-time-name="987d1b5e-97c5-4a87-9fa9-fd2237406484">
+          <CubeDimensionID>Channel 1</CubeDimensionID>
+          <MeasureGroupID>Channel</MeasureGroupID>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+    <MeasureGroup dwd:design-time-name="036f08b7-0582-47fa-aed6-13cb1e6ed90b">
+      <ID>Channel</ID>
+      <Name>Channel</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="165f721d-6de8-4476-91f4-60e233fc0911">
+          <ID>Channel Count</ID>
+          <Name>Channel Count</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="23d3cb43-5299-4922-894b-a2aa4d2032a2">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="8f75b453-6ab0-4e68-9918-0ab366531230">
+              <TableID>dbo_Channel</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="DegenerateMeasureGroupDimension" dwd:design-time-name="385c8a15-b600-4b7c-81cc-379d61479b17">
+          <CubeDimensionID>Channel</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="e5d3161e-f814-416c-9823-d441528b15b0">
+              <AttributeID>Channel Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="572bace2-2ee5-4c4d-977d-4b1b299df2b1">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="e632ee8e-3be1-4c68-9c1a-f0fa45fefa16">
+                    <TableID>dbo_Channel</TableID>
+                    <ColumnID>channel_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="b17647c7-6d90-4950-bacd-54db0e23a7d7">
+          <CubeDimensionID>Channel 1</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1b6dcdcb-0d27-4cf3-b696-dc01a37afdf0">
+              <AttributeID>Channel Id</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="4dfc118c-ecdb-4019-a708-9fb0de4ff894">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4a09a270-cb86-4a6d-b215-e611cc297287">
+                    <TableID>dbo_Channel</TableID>
+                    <ColumnID>channel_id</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="2cc9a957-595e-4dbb-88b7-9232c4f9319c">
+    <DataSourceViewID>HD Database</DataSourceViewID>
+  </Source>
+</Cube>

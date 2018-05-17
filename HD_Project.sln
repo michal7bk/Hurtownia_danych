@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "HD_Project", "HD_Project\HD_Project.dtproj", "{91A1F797-B104-43BF-A24A-BB59862D1C4D}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Wielowymiarowe_Kostki", "Wielowymiarowe_Kostki\Wielowymiarowe_Kostki.dwproj", "{F8B152B9-ECC7-429D-98C4-FD3F1668EB40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91A1F797-B104-43BF-A24A-BB59862D1C4D}.Development|Default.ActiveCfg = Development
+		{91A1F797-B104-43BF-A24A-BB59862D1C4D}.Development|Default.Build.0 = Development
+		{F8B152B9-ECC7-429D-98C4-FD3F1668EB40}.Development|Default.ActiveCfg = Development
+		{F8B152B9-ECC7-429D-98C4-FD3F1668EB40}.Development|Default.Build.0 = Development
+		{F8B152B9-ECC7-429D-98C4-FD3F1668EB40}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EF0EE741-D8F5-4993-B7BA-FDDEE7822468}
+	EndGlobalSection
+EndGlobal
